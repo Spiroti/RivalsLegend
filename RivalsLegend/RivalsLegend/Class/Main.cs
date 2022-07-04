@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace RivalsLegends
+namespace RivalsLegend
 {
     public class Main
     {            
@@ -19,7 +19,7 @@ namespace RivalsLegends
             Console.WriteLine("         The game will start");
             Console.WriteLine("####################################");
 
-            SQLiteConnec.CreateBDD();
+            SQLite.CreateBDD();
 
 
             Console.WriteLine("Enter the player's name");
