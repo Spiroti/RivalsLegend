@@ -1,0 +1,18 @@
+<Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="testation" Content="Test" 
+                    Click="TestClick" Margin="0,12"/>
+            <Button Content="Open dialog" Click="DialogButton_Click" 
+                    HorizontalAlignment="Stretch"/>
+            <Button Content="Close all" Click="CloseAllButton_Click" 
+                    Margin="0,12" HorizontalAlignment="Stretch"/>
+        </StackPanel>
+
+        <StackPanel x:Name="colorPickerContainer" Grid.Column="1" Background="WhiteSmoke">
+            <Button Click="DetachColorPickerButton_Click" HorizontalAlignment="Right">
+
+            </Button>
+        </StackPanel>
