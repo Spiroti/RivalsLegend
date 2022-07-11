@@ -349,3 +349,7 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 Rivals/Rivals/obj/Debug/Rivals.csproj.AssemblyReference.cache
+
+# sqlite bd
+/*.db
+*.db
